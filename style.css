@@ -1,0 +1,99 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0099CB, #FBB311, #E94752, #009ACC);
+}
+
+
+header{
+    color: rgb(219, 255, 60);
+    padding: 20px;
+    text-align: center;
+}
+
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px skyblue;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0%;
+}
+
+
+nav ul li{
+ display: inline;   
+ margin: 0 110px;
+}
+
+
+nav a{
+    color: rgb(255, 241, 48);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contenedor{
+    padding: 20px;
+    margin: 20px;
+    border: 2px outset rgb(340, 200, 500);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: justify;
+}
+
+
+.contenedor img{
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+
+footer ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+footer ul li a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5;
+}
